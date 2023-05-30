@@ -1,0 +1,175 @@
+
+body {
+    font-family: "Roboto Mono", sans-serif;
+    height: 100%;
+    color: #444;
+}
+
+
+a:hover {
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    margin: 20px 0;
+    color: #101010;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 50px 0 0 0;
+    position: relative;
+}
+
+.icons {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 10px;
+}
+
+.icon-holder-center {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.section-holder {
+  border: 1px solid #aaa;
+  padding: 30px 30px 50px;
+}
+
+.section-big-title {
+    position: absolute;
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    font-size: 180px;
+    font-weight: 700;
+    z-index: -1;
+    margin: 0;
+    color: #ececec;
+}
+
+
+.img-holder {
+    position: relative;
+    margin: 20px 0 30px;
+}
+
+
+
+.skillbar {
+    position:relative;
+    display:block;
+    margin-bottom:10px;
+    width:100%;
+    transition:0.4s linear;
+    transition-property:width, background-color;
+    padding:15px 0;
+}
+
+.skillbar-title {
+    position: relative;
+    font-size: 14px;
+    color: #101010;
+    z-index: 100;
+    display: block;
+    width: 100%;
+}
+
+.skillbar-title span {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+}
+
+
+.skill-bar-percent {
+    position:absolute;
+    left:0;
+    top:15px;
+    font-size:12px;
+    height:35px;
+    line-height:35px;
+    color:#aaa;
+    z-index: 100;
+}
+
+
+
+.time-item {
+    padding: 15px 0;
+    position: relative;
+}
+
+.time-year {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 40px;
+    color: #ececec;
+    opacity: 1;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+.line-art-top{
+    position: absolute;
+    top:0;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(90deg);
+            transform: translateX(-50%) rotate(90deg);
+    margin-top: -14px;
+}
+
+.line-art-bottom{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(90deg);
+            transform: translateX(-50%) rotate(90deg);
+    margin-bottom: -14px;
+}
+
+.line-art-left{
+    position: absolute;
+    top:50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 5px;
+}
+
+.line-art-right{
+    position: absolute;
+    top:50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-right: 5px;
+}
+
+.line-art-top div, .line-art-bottom div, .line-art-left div, .line-art-right div{
+    background: #101010;
+    width: 10px;
+    height: 1px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.line-art-top div:nth-child(1), .line-art-top div:nth-child(2), .line-art-top div:nth-child(3), .line-art-top div:nth-child(4),
+.line-art-bottom div:nth-child(1), .line-art-bottom div:nth-child(2), .line-art-bottom div:nth-child(3), .line-art-bottom div:nth-child(4),
+.line-art-left div:nth-child(1), .line-art-left div:nth-child(2), .line-art-left div:nth-child(3), .line-art-left div:nth-child(4),
+.line-art-right div:nth-child(1), .line-art-right div:nth-child(2), .line-art-right div:nth-child(3), .line-art-right div:nth-child(4){
+    margin: 5px;
+}
